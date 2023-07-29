@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: poppins;
+}
+
+
+.navbar{
+    background: transparent;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2em;
+}
+
+.lli{
+    list-style: none;
+}
+
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.bttn{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    padding: 1em;
+}
+
+.bttn:hover{
+    color: rgb(255, 63, 63);
+}
+
+.btn{
+    display: flex;
+}
+
+.cloudfire{
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.red{
+    color: red;
+}
+
+.texts{
+    padding: 1.5em;
+    margin-top: 10em;
+}
+
+.lorem{
+    color: white;
+    margin-top: -2em;
+    width: 35em;
+}
+
+.buttons{
+    text-decoration: none;
+    color: white;
+    background: rgba(0, 0, 0, 0.178);
+    padding: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 10em;
+}
+
+@media screen and (max-width: 768px){
+    .lorem{
+        width: 23em;
+    }
+}
